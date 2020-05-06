@@ -10,6 +10,26 @@ module "client_label" {
 
 resource "aws_cognito_user_pool" "user_pool" {
   name = module.pool_label.name
+
+  password_policy {
+    minimum_length = 8
+    require_lowercase = false
+    require_symbols = false
+    require_numbers = false
+    require_uppercase = false
+    temporary_password_validity_days = 7
+  }
+
+  auto_verified_attributes = ["email"]
+
+  admin_create_user_config {
+    allow_admin_create_user_only = false
+  }
+
+  verification_message_template {
+    default_email_option = "CONFIRM_WITH_CODE"
+  }
+
 }
 
 resource "aws_cognito_user_pool_client" "client" {
