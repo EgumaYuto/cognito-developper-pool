@@ -1,0 +1,14 @@
+{
+  "name": "console-access-client",
+  "version": "0.0.0",
+  "author": "cabos",
+  "private": true,
+  "scripts": {
+    "start-admin": "ts-node admin/main.ts",
+    "start-user": "ts-node user/main.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
