@@ -7,7 +7,12 @@
     "start-admin": "ts-node admin/main.ts",
     "start-user": "ts-node user/main.ts"
   },
+  "dependencies": {
+    "argv": "^0.0.2",
+    "aws-sdk": "^2.670.0"
+  },
   "devDependencies": {
+    "@types/node": "^13.13.5",
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
   }
