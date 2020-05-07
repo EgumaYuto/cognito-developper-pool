@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/argv@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@types/argv/-/argv-0.0.4.tgz#3c2a4e85164f3acd17b9ede1099777070d47540e"
+  integrity sha1-PCpOhRZPOs0Xue3hCZd3Bw1HVA4=
+
 "@types/node@^13.13.5":
   version "13.13.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"

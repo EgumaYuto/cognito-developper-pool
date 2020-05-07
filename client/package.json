@@ -12,6 +12,7 @@
     "aws-sdk": "^2.670.0"
   },
   "devDependencies": {
+    "@types/argv": "0.0.4",
     "@types/node": "^13.13.5",
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
