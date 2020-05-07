@@ -1,0 +1,1 @@
+cat user_pool/terraform.tfstate | jq '.outputs' > ../client/admin/resource/temp_files/user_pool.json
