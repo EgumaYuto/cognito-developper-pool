@@ -25,7 +25,6 @@ resource "aws_iam_role" "auth_user_role" {
 }
 
 resource "aws_iam_role_policy_attachment" "auth_user_policy_attachment" {
-  name = "${module.id_label.name}_attachment"
-  role = "aws_iam_role.auth_user_role.name"
+  role = aws_iam_role.auth_user_role.name
   policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 }
