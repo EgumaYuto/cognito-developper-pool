@@ -8,8 +8,10 @@
     "start-user": "ts-node user/main.ts"
   },
   "dependencies": {
+    "amazon-cognito-identity-js": "^4.2.3",
     "argv": "^0.0.2",
-    "aws-sdk": "^2.670.0"
+    "aws-sdk": "^2.670.0",
+    "cross-fetch": "^3.0.4"
   },
   "devDependencies": {
     "@types/argv": "0.0.4",
