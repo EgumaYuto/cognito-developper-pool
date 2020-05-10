@@ -4,3 +4,4 @@
 *.tfstate*
 node_modules/
 temp_files/
+.log
